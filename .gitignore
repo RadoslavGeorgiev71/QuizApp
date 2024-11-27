@@ -1,0 +1,77 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# prisma
+/prisma/migration-lock.json
+/prisma/dev.db
+/prisma/.prisma/client
+
+# server
+/server/node_modules
+/server/.next
+/server/.env
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+/server/.yarn
+/server/.pnp
+/server/.pnp.js
+/server/.yarnrc
+/server/.yarnrc.yml
+/server/yarn.lock
+/server/.npmrc
+
+# build output
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/server/.mvn
+/server/src
+/server/target
