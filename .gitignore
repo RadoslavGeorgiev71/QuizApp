@@ -75,6 +75,4 @@ yarn-error.log*
 /server/.mvn
 /server/target
 
-/client/package-lock.json
-
 
