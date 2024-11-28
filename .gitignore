@@ -8,7 +8,7 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+*/.idea
 *.iws
 *.iml
 *.ipr
@@ -73,5 +73,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /server/.mvn
-/server/src
 /server/target
+
+/client/package-lock.json
+
+
