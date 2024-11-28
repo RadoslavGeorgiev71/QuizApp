@@ -1,7 +1,6 @@
 import axios from "axios";
-
-const API_URL = "http://localhost:8080/first";
+import {API_URL} from "../App";
 
 export async function firstFunction() {
-    return await axios.get(API_URL);
+    return await axios.get(API_URL + "/first");
 }
